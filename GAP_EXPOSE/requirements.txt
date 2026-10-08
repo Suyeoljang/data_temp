@@ -1,0 +1,6 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+numba>=0.57   # 선택. 없으면 자동 폴백(배치 학습이 수십 배 느려짐)
+oracledb>=2.0      # DB 연동 (thin 모드, Oracle Client 불필요)
+plotly>=5.0        # viz.py (시각화)
